@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { copyToClipboard } from "./utils/copyToClipboard";
-import { LOWERCASE, NUMBERS, SYMBOLS, UPPERCASE } from "./assets/constants";
+import { LOWERCASE, NUMBERS, SYMBOLS, UPPERCASE } from "./constants/index";
 import copy_icon from "./assets/copy.png";
 
 function App() {
