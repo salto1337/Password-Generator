@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+input[type="checkbox"] {
+	accent-color: #e11d48;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+}
